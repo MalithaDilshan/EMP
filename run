@@ -1,0 +1,4 @@
+#!/bin/csh -f
+
+g++ -std=c++0x -static-libstdc++ -Wall -g -o test main.cpp command.cpp singleton.cpp datahandler.cpp hashmap.cpp worker.cpp trainee.cpp employee.cpp salariedemployee.cpp hourlypaidemployee.cpp 
+./test

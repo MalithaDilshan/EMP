@@ -1,0 +1,4 @@
+#!/bin/csh -f
+
+rm -rf  main.o command.o datahandler.o employee.o hashmap.o hourlypaidemployee.o salariedemployee.o singleton.o trainee.o worker.o test
+
